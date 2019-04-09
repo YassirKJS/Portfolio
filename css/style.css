@@ -131,14 +131,25 @@
 }
 
 .squareContent h2 {
-	font-size: 56px;
+	font-size: 50px;
 	margin-bottom: 10px;
 	font-weight: 400;
 	color: #3c6382;
 }
 
 .squareContent h3 {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 600;
 	margin: 0;
+}
+
+.squareIcon {
+	position: absolute;
+	left: 50%;
+	top: -30%;
+	width: 40%;
+	height: 60px;
+	font-size: 60px;
+	margin-left: -20%;
+	color: #444;
 }

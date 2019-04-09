@@ -54,3 +54,11 @@
 	font-size: 30px;
 	font-family: unset;
 }
+
+.section {
+	padding: 100px 0;
+}
+
+.aboutImage {
+	max-width: 100%
+}

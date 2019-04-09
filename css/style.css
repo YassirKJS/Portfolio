@@ -62,3 +62,11 @@
 .aboutImage {
 	max-width: 100%
 }
+
+.skillsSection {
+	background-color: #3c6382;
+	text-shadow: 0px 2px 4px #ffffff;	
+	letter-spacing: 4px;
+	color: #fff;
+}
+

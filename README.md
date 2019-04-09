@@ -12,3 +12,5 @@ What I worked with so far:
 
 -Carousel.js ( http://owlcarousel2.github.io/OwlCarousel2/ ) 
 
+-Easy pie charts ( https://github.com/rendro/easy-pie-chart )
+

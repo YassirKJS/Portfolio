@@ -14,3 +14,5 @@ What I worked with so far:
 
 -Easy pie charts ( https://github.com/rendro/easy-pie-chart )
 
+-Font Awesome ( https://fontawesome.com/ )
+

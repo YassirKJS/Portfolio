@@ -16,3 +16,6 @@ What I worked with so far:
 
 -Font Awesome ( https://fontawesome.com/ )
 
+-jQuerySimpleCounter ( https://github.com/marcovincit/jQuerySimpleCounter )
+
+

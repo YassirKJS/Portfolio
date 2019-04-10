@@ -53,6 +53,8 @@
 .titleMessage .heading .sub {
 	font-size: 30px;
 	font-family: unset;
+	color: #efc764;
+	font-weight: 400;
 }
 
 .section {

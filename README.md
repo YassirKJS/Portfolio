@@ -17,3 +17,7 @@ What I worked with so far:
 -Font Awesome ( https://fontawesome.com/ )
 
 -jQuerySimpleCounter ( https://github.com/marcovincit/jQuerySimpleCounter )
+
+-Isotope ( https://isotope.metafizzy.co/ )
+
+-Fancybox ( http://fancyapps.com/fancybox/3/ )

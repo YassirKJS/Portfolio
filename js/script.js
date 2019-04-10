@@ -66,6 +66,16 @@ $(document).ready(function() {
     	}
     });
 	
+	$("[data-fancybox]").fancybox();
+
+	$(".items").isotope({
+		filter: '*', //filter applied right from the start is all*
+		animationOptions: {
+			duration: 1500,
+			easing: 'linear',
+			queue: false
+		}
+	});
 
 });
 

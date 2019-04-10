@@ -153,9 +153,9 @@
 .squareIcon {
 	position: absolute;
 	left: 50%;
-	top: -30%;
+	top: -24%;
 	width: 40%;
-	height: 60px;
+	height: 50px;
 	font-size: 60px;
 	margin-left: -20%;
 	color: #444;
@@ -324,4 +324,44 @@
 
 .items {
 	padding: 0;
+}
+
+.copyrightSection {
+	background-color: #000;
+	color: #fff;
+	padding: 30px 5px;
+}
+
+.copyrightSection p {
+	margin: 0;
+}
+
+#navigation {
+	background-color: #3c6382;
+	padding: 20px 10px;
+	z-index: 100;
+	width: 100%;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-toggler-icon {
+	background: url(../img/icons/menu.png);
+	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
 }

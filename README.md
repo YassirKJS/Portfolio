@@ -21,3 +21,5 @@ What I worked with so far:
 -Isotope ( https://isotope.metafizzy.co/ )
 
 -Fancybox ( http://fancyapps.com/fancybox/3/ )
+
+-Navbar ( https://getbootstrap.com/docs/4.0/components/navbar/ )

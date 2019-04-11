@@ -1,3 +1,19 @@
+$(window).on("load", function() {
+	$(".loader .inner").fadeOut(500, function() {
+		$(".loader").fadeOut(750);
+	});
+
+	$(".items").isotope({
+		filter: '*', //filter applied right from the start is all*
+		animationOptions: {
+			duration: 1500,
+			easing: 'linear',
+			queue: false
+		}
+	});
+});
+
+
 $(document).ready(function() {
 	$('#slides').superslides({
 		animation: 'fade',
@@ -68,14 +84,7 @@ $(document).ready(function() {
 	
 	$("[data-fancybox]").fancybox();
 
-	$(".items").isotope({
-		filter: '*', //filter applied right from the start is all*
-		animationOptions: {
-			duration: 1500,
-			easing: 'linear',
-			queue: false
-		}
-	});
+	
 
 	/*# is used before the id*/
 	$("#filters a").click(function() {
@@ -93,6 +102,14 @@ $(document).ready(function() {
 			}
 		});
 		return false; /*false => dont do anything else*/
+	});
+
+
+	$("#navigation li a").click(function(e) {
+		e.preventDefault(); //prevent the default click event
+		var targetElement = $(this).attr("href");
+		var targetPosition = $(targetElement).offset().top;
+		$("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
 	});
 
 
